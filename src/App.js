@@ -14,7 +14,6 @@ function App() {
           ...prevState,
           { id: cuid(), src: e.target.result },
         ]);
-        console.log(videos);
       };
       reader.readAsDataURL(file);
       return file;
